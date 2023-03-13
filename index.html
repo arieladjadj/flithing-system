@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--header -->
+    <div class="container-fluid header-cf">
+        <div class="container  ">
+            <header class="row my-header">
+                <!--left header side -->
+                <div class="col-8 inner-left-header d-flex align-items-center">
+                    <h3 class="me-3">Adantrip</h1>
+                        <!-- left nav - display on desktop-->
+                        <ul class=" d-none d-md-flex list-unstyled">
+                            <li><a class="text-white text-decoration-none px-2" href="">abc</a></li>
+                            <li><a class="text-white text-decoration-none px-2" href="">abc</a></li>
+                            <li><a class="text-white text-decoration-none px-2" href="">abc</a></li>
+                            <li><a class="text-white text-decoration-none px-2" href="">abc</a></li>
+                            <li><a class="text-white text-decoration-none px-2" href="">abc</a></li>
+                        </ul>
+                </div>
+                <!--right header side -->
+                <div class="col-4 inner-right-header d-flex align-items-center">
+                    <!-- right nav - display on desktop -->
+                    <div class="check d-none d-md-flex justify-content-end  ">
+                        <a class="me-2  text-white text-decoration-none mx-2" href="">USD</a>
+                        <img class="me-2" src="./images/united-states.png" alt="us image">
+                        <img class="me-2" src="./images/use.png" alt="user image">
+                        <a class="me-2 text-white text-decoration-none mx-2" href="">my acount</a>
+                    </div>
+                    <!-- hamburger - display on smartphone -->
+                    <img class="d-block d-md-none"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2PhZrEsRhYp5yM4B-W8n45dOIQVPCKd2n6S0p82Xj-GARG1h9cTvR6h8WkR_5SaK9ed4&usqp=CAU"
+                        alt="">
+                </div>
+            </header>
+
+        </div>
+    </div>
+
+    <!-- main data -->
+    <div class="container-fluid">
+        <div class="container">
+            <main class="row my-main">
+                <!-- left main side -->
+                <div class="inner-left-main col-md-8 mt-3">
+                    <!-- Flight Details -->
+                    <div class="flight-details row">
+                        <div class="inner-left-flight-details col-8">
+                            <h3>Buenos Aires -> lli de prance</h3>
+                            <h5 class="text-secondary">round trip</h5>
+                            <h5 class="text-secondary">Depart: Aug 15, 2019</h5>
+                            <h5 class="text-secondary">Return: Aug 16, 2019</h5>
+                            <h5 class="text-secondary">flght detailes </h5>
+                        </div>
+                        <div class="inner-right-flight-details col-4">
+                            <img class="d-none d-md-block" src="./images/iberia.svg" alt="aa">
+                        </div>
+                    </div>
+
+                    <div class="grey-line"></div> <!-- grey line div... -->
+
+                    <!-- Passenger Details -->
+                    <div class="passenger-details  row">
+                        <h5>Enter Passenger Details</h5>
+                        <h6 class="text-secondary">Passenger 1 </h6>
+                        <div class="inner-left-passenger-details col-md-6 row justify-content-between ms-1">
+                            <select class="col-md-4 p-1" name="Month" id="input-group "> <!-- Month -->
+                                <option value="" disabled selected hidden>Month</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="June">June</option>
+
+                            </select>
+                            <select class="col-md-3 p-1" name="Month" id="input-group "> <!-- Day -->
+                                <option value="" disabled selected hidden>Day</option>
+                                <option value="Sunday">Sunday</option>
+                                <option value="Monday">Monday</option>
+                            </select>
+                            <select class="col-md-3 p-1" name="Month" id="input-group "> <!-- Year -->
+                                <option value="" disabled selected hidden>Year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                            </select>
+
+                            <input class="mt-2 p-1" type="text" placeholder="First Name">
+
+                            <input class="mt-2 p-1" type="text" placeholder="Personal Serial">
+
+                        </div>
+                        <div class="inner-right-passenger-details col-md-6 row ms-1">
+                            <select class="p-1" name="Gender" id="input-group ">
+                                <option value="" disabled selected hidden>Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+
+                            <input class="mt-2 p-1" type="text" placeholder="Last Name">
+
+                            <select class="m-2 p-1" name="Citi" id="input-group ">
+                                <option value="" disabled selected hidden>Citi</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                    <div class="grey-line mt-4"></div> <!-- grey line div... -->
+
+                    <!-- Billing Detailes -->
+                    <div class="billing-detailes row">
+
+                    </div>
+
+                    <div class="grey-line mt-4"></div> <!-- grey line div... -->
+
+                    <!-- Total data -->
+                    <div class="total-data row">
+                        <div class="inner-left-total-data col-md-8">
+                            <h5>Total</h5>
+                            <p class=" text-secondary">By clicking book now button .. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit.
+                                Voluptates, ratione.</p>
+                        </div>
+                        <div class="inner-right-total-data col-md-3">
+                            <h4>1981$</h4>
+                        </div>
+                        <button class="mb-3">BOOK NOW</button>
+
+                    </div>
+                </div>
+                <!-- right main side -->
+                <div class="inner-right-main col-md-4">
+
+                    <div class="booking-summer border border-2 mt-3 mb-3">
+                        <h5>Booking Summery</h5>
+                        <h6 class="text-secondary">Round Trip</h6>
+                        <h6 class="text-secondary">Depart: Aug 15, 2019</h6>
+                        <h6 class="text-secondary">Return: Aug 16, 2019</h6>
+
+                    </div>
+
+                    <div class="booking-summer border border-2 mt-3 mb-3">
+                        <h5>Booking Summery</h5>
+                        <h6 class="text-secondary">Round Trip</h6>
+                        <h6 class="text-secondary">Depart: Aug 15, 2019</h6>
+                        <h6 class="text-secondary">Return: Aug 16, 2019</h6>
+
+                    </div>
+
+                    <div class="booking-summer border border-2 mt-3 mb-3">
+                        <h5>Booking Summery</h5>
+                        <h6 class="text-secondary">Round Trip</h6>
+                        <h6 class="text-secondary">Depart: Aug 15, 2019</h6>
+                        <h6 class="text-secondary">Return: Aug 16, 2019</h6>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container-fluid my-footer-cf">
+        <div class="container">
+            <footer class="row my-footer">
+                <div class="row inner-left-footer col-md-8 ">
+                    <div class="p1 col-md-6">
+                        <h2>Adantrip</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, autem. </p>
+                    </div>
+                    <div class="p2 col-md-2 ">
+                        <h4>aaaa</h4>
+                        <ul class="list-unstyled">
+                            <li><a class="text-secondary text-decoration-none" href="#">About</a></li>
+                            <li><a class="text-secondary text-decoration-none" href="#">Gallery</a></li>
+                            <li><a class="text-secondary text-decoration-none" href="#">Contace</a></li>
+                        </ul>
+                    </div>
+                    <div class="p3 col-md-2">
+                        <h4>bbb</h4>
+                        <ul class="list-unstyled">
+                            <li><a class="text-secondary text-decoration-none" href="#">About</a></li>
+                            <li><a class="text-secondary text-decoration-none" href="#">Gallery</a></li>
+                            <li><a class="text-secondary text-decoration-none" href="#">Contace</a></li>
+                        </ul>
+                    </div>
+                    <div class="p4 col-md-2">
+                        <h4>ddd</h4>
+                        <ul class="list-unstyled">
+                            <li><a class="text-secondary text-decoration-none" href="#">About</a></li>
+                            <li><a class="text-secondary text-decoration-none" href="#">Gallery</a></li>
+                            <li><a class="text-secondary text-decoration-none" href="#">Contace</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="inner-right-footer col-md-4">
+                    <img class=""
+                        src="https://www.seiu1000.org/sites/main/files/imagecache/hero/main-images/camera_lense_0.jpeg"
+                        alt="adv">
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- copyrights div -->
+    <div class="container-fluid copyrights-cf ">
+        <div class="container">
+            <div class="row my-copyrights-div">
+                <div class="inner-left copyrights d-flex justify-content-md-start justify-content-center col-md-8">
+                    <h5>copyrights @aa</h5>
+                </div>
+                <div class="inner-right-copyrights col-md-4">
+                    <ul class="d-flex justify-content-md-end justify-content-center list-unstyled ">
+                        <li class="me-3"><i class="fa-brands fa-instagram"></i></li>
+                        <li class="me-3"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="me-3"><i class="fa-brands fa-instagram"></i></li>
+                        <li class="me-3"><i class="fa-brands fa-facebook"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
